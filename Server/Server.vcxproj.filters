@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Service">
+      <UniqueIdentifier>{a473de14-381a-4147-bb4b-1229023dadf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\NetWorkingUtils">
+      <UniqueIdentifier>{dc3bcc06-ae5c-4ab9-b6d2-710084f36a7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Log">
+      <UniqueIdentifier>{1200a3fe-9899-4d0d-9df4-333693d603c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\image">
+      <UniqueIdentifier>{a74013a3-6487-4b45-a0ca-47933e44591f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mainApp.cpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClCompile>
+    <ClCompile Include="Log\Log.cpp">
+      <Filter>Исходные файлы\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWorkingUtils\Packet.cpp">
+      <Filter>Исходные файлы\NetWorkingUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="Service\NavigationService.cpp">
+      <Filter>Исходные файлы\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWorkingUtils\MainServer.cpp">
+      <Filter>Исходные файлы\NetWorkingUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="PageSidebar.cpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClCompile>
+    <ClCompile Include="PageHome.cpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClCompile>
+    <ClCompile Include="PageChat.cpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mainApp.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Log\Log.h">
+      <Filter>Исходные файлы\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWorkingUtils\Packet.h">
+      <Filter>Исходные файлы\NetWorkingUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Service\NavigationService.h">
+      <Filter>Исходные файлы\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWorkingUtils\MainServer.h">
+      <Filter>Исходные файлы\NetWorkingUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="PageSidebar.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="PageHome.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="PageChat.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="image\last_24_hours_48px.png">
+      <Filter>Исходные файлы\image</Filter>
+    </Image>
+    <Image Include="image\thin_client_80px.png">
+      <Filter>Исходные файлы\image</Filter>
+    </Image>
+    <Image Include="image\time_64px.png">
+      <Filter>Исходные файлы\image</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
